@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  margin-top: 10px;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  width: min(600px, 80%);
+  box-shadow: 1px 1px 10px 2px #000300;
+  position:relative;
+}
+
+.card_title{
+  font-style: italic;
+  font-size: 1.6rem;
+  text-align: end;
+  padding-top: 15px;
+}
+
+.card_paragraph{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.button{
+  font-size: 22px;
+  left: 100%;
+  width: 40px;
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  position: relative;
+  transform: translateX(-130%);
+  box-shadow: 1px 1px 5px 0 #003a;
+}
